@@ -84,7 +84,7 @@ function gameOverSound() {
     back.stop()
 }
 function backgroundSound() {
-    let back = new Audio("sounds/Полет шмеля   Гитара.mp3")
+    let back = new Audio("sounds/back_music.ogg")
     back.play()
 }
 setInterval(game,1000/60);
